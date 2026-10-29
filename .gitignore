@@ -1,0 +1,77 @@
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+
+# Python Virtual Environments
+venv/
+backend/venv/
+env/
+.env
+.venv/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+
+# Logs & Temporary Files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE & OS Files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# MLOps Dynamic Runtime Artifacts & Datasets
+backend/dataset/
+backend/ml_registry/
+backend/mlflow_experiments/
+backend/app/ml/*.joblib
+backend/app/ml/metadata.joblib
+backend/app/ml/scaler.joblib
+*.pkl
+*.joblib
+
+# Scratch documentation & status files (Per repository specification)
+project_documentation/
+SERVER_STATUS.md
+SYSTEM_STATUS.md
+MLOPS_SUMMARY.md
+INTEGRATION.md
+SETUP.md
+backend/MLOPS.md
+backend/MODEL_INFO.md
+backend/README.md
